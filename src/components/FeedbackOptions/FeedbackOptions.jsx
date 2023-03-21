@@ -1,9 +1,4 @@
 export const FeedbackOptions = props => {
-  // static propTypes = {
-
-  // }
-  //
-
   return (
     <div>
       {props.options.map(option => {

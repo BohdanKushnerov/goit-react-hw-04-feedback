@@ -28,8 +28,6 @@ export class App extends Component {
     });
   };
 
-  // options = Object.keys(this.state);
-
   render() {
     return (
       <div>
@@ -47,19 +45,7 @@ export class App extends Component {
           total={this.countTotalFeedback}
           positivePercentage={this.countPositiveFeedbackPercentage}
         ></Statistics>
-        {/* <div>
-          <h3>Statistics</h3>
-          <p>Good: {this.state.good}</p>
-          <p>Neutral: {this.state.neutral}</p>
-          <p>Bad: {this.state.bad}</p>
-          <p>Total: {this.countTotalFeedback()}</p>
-          <p>Positive feedback: {this.countPositiveFeedbackPercentage()}%</p>
-        </div> */}
       </div>
     );
   }
-}
-
-{
-  /* <Statistics good={} neutral={} bad={} total={} positivePercentage={}></Statistics> */
 }

@@ -1,8 +1,4 @@
 export const Statistics = props => {
-  // static propTypes = {
-
-  // }
-
   return (
     <div>
       <h3>Statistics</h3>
